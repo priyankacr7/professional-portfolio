@@ -3,16 +3,28 @@
 .container {
   display: flex;
   flex-direction: column;
+  align-items: center; /* Centers content */
   border-radius: 10px;
   background: linear-gradient(180deg, #576cbc 0%, #132a53 100%);
-  box-shadow: 0 16px 14px 0 #04152d;
+  box-shadow: 0 16px 14px 0 rgba(4, 21, 45, 0.8); /* Added transparency for a softer shadow */
   padding: 18px 24px;
   max-width: 345px;
+  overflow: hidden; /* Prevents content overflow */
+}
+
+.container:hover {
+  transform: scale(0.95); /* Shrinks the card slightly */
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3); /* Slightly deeper shadow */
 }
 
 .image {
-  margin-bottom: 26px;
+  width: 100%; 
+  height: 200px;
+  object-fit: cover; 
+  border-radius: 8px; 
+  margin-bottom: 20px; /* Adjusted margin for better spacing */
 }
+
 
 .title {
   font-size: 25px;
@@ -58,4 +70,10 @@
   border-radius: 100px;
   background: var(--color-primary);
   padding: 1px 22px;
+}
+
+.link:hover {
+  color: #132a53;
+  transform: scale(0.95); /* Shrinks the card slightly */
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3); /* Slightly deeper shadow */
 }

@@ -39,6 +39,39 @@
   margin-bottom: 52px;
 }
 
+@keyframes pulse {
+  0%, 100% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.1); opacity: 0.7; }
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  background: linear-gradient(to right, #5a3e1b, #3e2a14);
+  color: #f4c06a;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 6px 12px;
+  border-radius: 12px;
+  box-shadow: 0px 0px 5px rgba(244, 192, 106, 0.5);
+}
+
+/* Icon Style */
+.badge-icon {
+  width: 16px;
+  height: 16px;
+  background: radial-gradient(circle, #f4c06a, #d49a50);
+  border-radius: 50%;
+  margin-right: 6px;
+  box-shadow: 0px 0px 5px rgba(244, 192, 106, 0.8);
+}
+
+/* Badge Text */
+.badge-text {
+  white-space: nowrap;
+}
+
+
 .contactBtn {
   text-decoration: none;
   background-color: var(--color-primary);
@@ -47,8 +80,10 @@
   font-size: 30px;
   font-weight: 600;
   padding: 17px 26px;
-  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  animation: pulse 1.5s infinite;
 }
+
 
 .heroImg {
   width: 50%;

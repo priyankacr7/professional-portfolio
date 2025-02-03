@@ -1,26 +1,54 @@
 [
   {
-    "title": "Project A",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "title": "Referral System for Bumble",
+    "imageSrc": "projects/bumble.webp",
+    "source": "https://drive.google.com/file/d/1FtnS1ND4Fm9Y8lt6Ok9UADjaIOibg3gL/view?usp=drive_link"
   },
   {
-    "title": "Project B",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node", "Sass"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "title": "GTM Strategy for LeapScholar",
+    "imageSrc": "projects/leapscholar.webp",
+    "source": "https://drive.google.com/file/d/1GmH8XpWGm0fDCObmLc4bR54NlA3qVCrs/view?usp=drive_link"
   },
   {
-    "title": "Project C",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "title": "Product Requirement Documnent",
+    "imageSrc": "projects/prd.jpeg",
+    "source": "https://drive.google.com/file/d/12g__cnnE0RSWpiMAKgKsoWV1d2Lob5Xn/view?usp=drive_link"
+  },
+  
+  {
+    "title": "Design careers page form for Applicant",
+    "imageSrc": "projects/india.webp",
+    "source": "https://drive.google.com/file/d/1S5g7_aGB7YIV-GPNqxxHx9Esa5pPexup/view?usp=drive_link"
+  },
+  {
+    "title": "Comprehensive analysis of Choice ",
+    "imageSrc": "projects/connect.webp",
+    "source": "https://drive.google.com/file/d/1y7dzk9kCEu1XrZptyyuZD1VbUR4pYFMk/view?usp=drive_link"
+  },
+  {
+    "title": "Improve Amazon Prime Video viewing experience ",
+    "imageSrc": "projects/prime.webp",
+    "source": "https://drive.google.com/file/d/1KD25j5SQhqCgw7mBZEenK15GzVNozY4O/view?usp=drive_link"
+  },
+  {
+    "title": "Netflix - Business Model Canvas",
+    "imageSrc": "projects/netflix.webp",
+    "source": "https://drive.google.com/file/d/1wk5ACQvmsxMEBGyULxboposWmvMwxsoA/view?usp=drive_link"
+  },
+  
+  {
+    "title": "Improving Instagram user Retention on the platform",
+    "imageSrc": "projects/instagram.jpg",
+    "source": "https://topaz-scribe-8a3.notion.site/Improving-Instagram-user-Retention-on-the-platform-29c2ef9dc6c64d2bb876fece0096b4b4"
+  },
+  {
+    "title": "Design a product to improve teenage health ",
+    "imageSrc": "projects/image.png",
+    "source": "https://topaz-scribe-8a3.notion.site/Design-a-product-to-improve-teenage-health-099834f8ff2a41b187d7c570cd2b2540"
+  },
+  {
+    "title": "Root Cause Analysis",
+    "imageSrc": "projects/youtube.webp",
+    "source": "https://topaz-scribe-8a3.notion.site/Root-Cause-Analysis-1f349510e9e8402ab84031a5ae9ccdcb"
   }
 ]
